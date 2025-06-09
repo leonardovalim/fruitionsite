@@ -1,0 +1,9 @@
+services:
+  fruition:
+    build: .
+    environment:
+      FRUITION_NOTION_PAGE_ID: ${FRUITION_NOTION_PAGE_ID}
+      FRUITION_CUSTOM_DOMAIN: ${FRUITION_CUSTOM_DOMAIN}
+      FRUITION_NOTION_TOKEN: ${FRUITION_NOTION_TOKEN}
+    ports:
+      - "3100:3000"
