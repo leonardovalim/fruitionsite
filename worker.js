@@ -9,7 +9,7 @@ const MY_DOMAIN = 'bp.leonardovalim.com.br';
  * The value on the right is the Notion page ID
  */
 const SLUG_TO_PAGE = {
-  "": "771ef38657244c27b9389734a9cbff44",
+  "": "20b2b0a96d8c806f9f1bffe7ae5e5243",
   thanks: "9d9864f5338b47b0a7f42e0f0e2bbf46",
   showcase: "92053970e5084019ac096d2df7e7f440",
   roadmap: "7d4b21bfb4534364972e8bf9f68c2c36"
