@@ -5,5 +5,10 @@ services:
       FRUITION_NOTION_PAGE_ID: ${FRUITION_NOTION_PAGE_ID}
       FRUITION_CUSTOM_DOMAIN: ${FRUITION_CUSTOM_DOMAIN}
       FRUITION_NOTION_TOKEN: ${FRUITION_NOTION_TOKEN}
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.fruition.rule=Host(`bp.leonardovalim.com.br`)"
+      - "traefik.http.routers.fruition.entrypoints=websecure"
+      - "traefik.http.routers.fruition.tls.certresolver=le"
     ports:
       - "3100:3000"
