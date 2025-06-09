@@ -1,7 +1,7 @@
 /* CONFIGURATION STARTS HERE */
 
 /* Step 1: enter your domain name like fruitionsite.com */
-const MY_DOMAIN = "fruitionsite.com";
+const MY_DOMAIN = 'bp.leonardovalim.com.br';
 
 /*
  * Step 2: enter your URL slug to page ID mapping
